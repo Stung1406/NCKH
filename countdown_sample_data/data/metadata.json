@@ -1,0 +1,32 @@
+{
+  "generator_version": "v1",
+  "seed": 20260927,
+  "counts": {
+    "train": 630,
+    "val": 135,
+    "test_id": 135,
+    "test_ood": 100
+  },
+  "sha256": {
+    "train.jsonl": "68908ebdc67b977009c78271bdeaae4d816c3ab423efcfe88595465c5bb002a0",
+    "val.jsonl": "5ccc77528e5578abbb32bed058dc4d0cfa772a8a02ae19d392cab6bc844d9303",
+    "test_id.jsonl": "f425ec205c8a9d96b33b28291d57c115e463e3696e5ac5de5b86f97a88ad1533",
+    "test_ood.jsonl": "038759d8a30fe6a233a905db227dbe10093303b2179a84dd0a06db6285b710ef"
+  },
+  "spec": {
+    "n_numbers": 4,
+    "id_range": [
+      1,
+      10
+    ],
+    "ood_range": [
+      11,
+      20
+    ],
+    "allow_intermediate_fraction": true,
+    "allow_intermediate_negative": true,
+    "max_expression_length": 40,
+    "unary_minus_allowed": false,
+    "output_format": "FINAL: <expression>  (khong CoT)"
+  }
+}
